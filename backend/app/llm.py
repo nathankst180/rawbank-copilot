@@ -111,7 +111,7 @@ Rules:
 - Never assign or imply the disposition CONFIRMED_FRAUD; dispositions are human decisions.
 - ATM/POS terminals and merchants legitimately touch many accounts/senders.
 - Rules FR-01..FR-20 are synthetic workshop rules, not the bank's real policies.
-- Cite transaction/customer/device/beneficiary IDs exactly as given. Be concise (under 300 words), use markdown headings and bullets."""
+- Cite transaction/customer/device/beneficiary IDs exactly as given. Be concise (under 300 words), use markdown headings and bullets only (no tables). Quote numbers exactly as given; do not restate a metric with different wording or meaning."""
 
 
 def synthesize(question: str, intent: str, package: dict, history: list[dict]) -> str | None:
